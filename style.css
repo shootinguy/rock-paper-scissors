@@ -1,0 +1,56 @@
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 30px;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+.choices{
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.choices img{
+    width: 100px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.choices img:hover{
+    transform: scale(1.1);
+}
+
+.results{
+    margin-top: 30px;
+}
+
+#player-choice, #computer-choice{
+    font-size: 1.2rem;
+}
+
+#winner{
+    margin-top: 20px;
+    font-size: 2rem;
+    color: #007acc;
+}
+
+#rock{
+    font-size: 70px;
+    border: none;
+}
+
+#paper{
+    font-size: 70px;
+    border: none;
+}
+
+#scissors{
+    font-size: 70px;
+    border: none;
+}
